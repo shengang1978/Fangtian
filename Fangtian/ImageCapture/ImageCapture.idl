@@ -1,0 +1,34 @@
+// ImageCapture.idl : IDL source for ImageCapture
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ImageCapture.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(2429B01B-CE7C-403E-BC58-E8E9C3120B9B),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ICImageCapture : IDispatch{
+};
+[
+	uuid(4A3F9137-B36B-4087-AB7F-FD4474A3BE7F),
+	version(1.0),
+]
+library ImageCaptureLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(2704D3A9-1EEE-488E-B4B8-A38E4148FF12)		
+	]
+	coclass CImageCapture
+	{
+		[default] interface ICImageCapture;
+	};
+};
+

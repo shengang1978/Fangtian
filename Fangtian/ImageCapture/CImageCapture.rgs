@@ -1,0 +1,16 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {2704D3A9-1EEE-488E-B4B8-A38E4148FF12} = s 'CImageCapture Class'
+		{
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{4A3F9137-B36B-4087-AB7F-FD4474A3BE7F}'
+			Version = s '1.0'
+		}
+	}
+}

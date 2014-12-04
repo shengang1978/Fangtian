@@ -1,0 +1,10 @@
+﻿<Window x:Class="Fangtian.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="118.657" Width="298.134">
+    <Grid>
+        <Button x:Name="_Start" Content="启动" HorizontalAlignment="Left" Margin="58,30,0,0" VerticalAlignment="Top" Width="75" Click="_Start_Click"/>
+        <Button x:Name="_Stop" Content="停止" HorizontalAlignment="Left" Margin="174,30,0,0" VerticalAlignment="Top" Width="75" Click="_Stop_Click" IsEnabled="False"/>
+
+    </Grid>
+</Window>

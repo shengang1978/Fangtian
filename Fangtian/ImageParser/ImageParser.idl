@@ -1,0 +1,35 @@
+// ImageParser.idl : IDL source for ImageParser
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ImageParser.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(6CE41766-A042-4904-8C96-D7D24B472B82),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ICImageParser : IDispatch{
+};
+[
+	uuid(058CC4B9-07EA-4DF0-8FC7-E1063A2E8082),
+	version(1.0),
+]
+library ImageParserLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(8F205115-C71D-4D48-A143-685370155FC4)		
+	]
+	coclass CImageParser
+	{
+		[default] interface ICImageParser;
+	};
+};
+
+import "shobjidl.idl";
