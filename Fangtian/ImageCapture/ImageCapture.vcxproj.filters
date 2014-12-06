@@ -34,6 +34,18 @@
     <ClCompile Include="CImageCapture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HHVLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HikHCNetVs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HikNetApi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -52,6 +64,18 @@
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="CImageCapture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HHVLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HikHCNetVs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HikNetApi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

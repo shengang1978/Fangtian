@@ -53,6 +53,8 @@ public:
 
 
 
+	STDMETHOD(Init)(void);
+	STDMETHOD(Destory)(void);
 };
 
 OBJECT_ENTRY_AUTO(__uuidof(CImageCapture), CCImageCapture)

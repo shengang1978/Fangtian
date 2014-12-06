@@ -4,7 +4,7 @@
 
 
  /* File created by MIDL compiler version 8.00.0595 */
-/* at Thu Dec 04 23:22:29 2014
+/* at Sat Dec 06 16:30:07 2014
  */
 /* Compiler settings for ImageCapture.idl:
     Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.00.0595 
